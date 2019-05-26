@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/age">
+
+    <!-- Screen Design for Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh của bạn"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ageField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:digits="1234567890"
+        android:gravity="center"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textColor="#FFF"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"
+        android:paddingBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh của người ấy"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/crushageField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="center"
+        android:digits="1234567890"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textColor="#FFF"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"
+        android:paddingBottom="20px"/>
+
+    <Button
+        android:id="@+id/agebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:text="Xem kết quả"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
